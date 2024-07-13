@@ -14,6 +14,10 @@ const minus = document.getElementById('minus');
 const multiply = document.getElementById('multiply');
 const divide = document.getElementById('divide');
 const equals = document.getElementById('equals');
+const ac = document.getElementById('ac');
+const open = document.getElementById('open');
+const close = document.getElementById('close');
+const clear = document.getElementById('clear');
 
 let ans=0;
 function One() {
@@ -97,3 +101,22 @@ function Equals() {
   
 }
  
+function AC() {
+    screen.innerHTML=null;
+}
+
+function Open() {
+    let x = screen.innerHTML;
+    screen.innerHTML=x+'('
+}
+
+function Close() {
+    let x = screen.innerHTML;
+    screen.innerHTML=x+')'
+}
+
+function Clear() {
+    let x = screen.innerHTML;
+    let y = x.length;
+    screen.innerHTML=x.slice(0,y-1);
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: grey
+    background-color: #172326;
 }
 #parent{
     width: 100%;
@@ -7,18 +7,19 @@ body {
     margin: auto;
 }
 
-#screen, #row1, #row2, #row3, #row4, #row5{
+#screen, #row1, #row2, #row3, #row4, #row5, #controls{
     width: 100%;
-    height: 16%;
+    height: 14%;
     text-align: right;
-    background-color: grey;
+    background-color: #172326;
     color: white;
 }
 
+
 #screen {
-    font-size: 700%;
+    font-size: 500%;
     border: solid black;
-    border-width: 0.5rem;
+    border-width: 0.4rem;
     background-color: #a7af7e;
     color: black;
     word-wrap: break-word;
@@ -29,7 +30,7 @@ button {
     padding:0;
     width: 33%;
     height: 99%;
-    font-size: 500%;
+    font-size: 400%;
     background-color: black;
     color: white;
     border: white solid;
@@ -38,4 +39,10 @@ button {
 
 #plus, #minus, #multiply, #divide, #equals {
     background-color: orange;
+}
+
+#ac, #open, #close, #clear {
+    width: 24.7%;
+    background-color: #2f6877;
+    color: white;
 }

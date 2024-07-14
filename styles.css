@@ -42,7 +42,8 @@ button {
 }
 
 #ac, #open, #close, #clear {
-    width: 24.7%;
+    width: 24.675%;
     background-color: #2f6877;
     color: white;
+    margin: auto;
 }

@@ -34,6 +34,7 @@ button {
     background-color: black;
     color: white;
     border: white solid;
+    transition: background-color 0.15s;
     
 }
 
@@ -41,9 +42,23 @@ button {
     background-color: orange;
 }
 
+#plus:active, #minus:active, #multiply:active, #divide:active, #equals:active {
+    background-color: white;
+}
+
 #ac, #open, #close, #clear {
     width: 24.675%;
     background-color: #2f6877;
     color: white;
     margin: auto;
+    transition: background-color 0.15s;
 }
+
+#ac:active, #open:active, #close:active, #clear:active {
+    background-color: white;
+}
+
+button:active {
+    background-color: white;
+}
+

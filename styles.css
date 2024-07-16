@@ -3,36 +3,34 @@ body {
     background-color: rgb(23,35,38);
 }
 #container {
-    width: 90%;
-    height: 90%;
-    border: solid;
-    margin: auto;
+    width: 100%;
+    height: 95%;
 }
 #screen {
     height: 16%;
-    border: solid;
+    border: solid 5px rgba(20, 19, 19, 0.682);
     text-align: right;
     word-wrap: break-word;
     background-color: #a7af7e;
-    font-size: 5vw;
-    font-weight: 545;
+    font-size: 4vw;
 }
 #mainControls {
     height: 14%;
     display: flex;
     flex-direction: row;
+    border: solid white 2px;
 }
 .mainControlItems {
     flex: 1;
 }
 
 #numpadAndOperators {
-    width: 100%;
     height: 69.7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0;
     row-gap: 0;
+    border: solid white 3px;
 }
 
 #numpadAndOperators button{
@@ -52,5 +50,10 @@ body {
 }
 
 button {
-    font-size: 5.5vw;
+    font-size: 4.5vw;
+}
+
+button:active, #plus:active, #minus:active, #multiply:active, #divide:active, #equals:active {
+    background-color: white !important;
+    color: black !important;
 }

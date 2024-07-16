@@ -12,7 +12,7 @@ body {
     text-align: right;
     word-wrap: break-word;
     background-color: #a7af7e;
-    font-size: 4vw;
+    font-size: 5.5vh;
 }
 #mainControls {
     height: 14%;
@@ -50,7 +50,7 @@ body {
 }
 
 button {
-    font-size: 4.5vw;
+    font-size: 5vh;
 }
 
 button:active, #plus:active, #minus:active, #multiply:active, #divide:active, #equals:active {

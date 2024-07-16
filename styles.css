@@ -4,7 +4,7 @@ body {
 }
 #container {
     width: 90%;
-    height: 98%;
+    height: 95%;
     border: solid;
     margin: auto;
 }
@@ -14,7 +14,7 @@ body {
     text-align: right;
     word-wrap: break-word;
     background-color: #a7af7e;
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-weight: 545;
 }
 #mainControls {
@@ -52,5 +52,5 @@ body {
 }
 
 button {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
 }
